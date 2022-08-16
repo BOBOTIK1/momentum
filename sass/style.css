@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  color: #ffffff;
+}
+body .page-wrapper {
+  background-image: url("https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/18.jpg");
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-blend-mode: multiply;
+  transition: background-image 1s ease-in-out;
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+.date-block {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 40vh;
+  z-index: 1;
+}
+
+.time {
+  font-family: "Lobster", cursive;
+  font-size: 100px;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+  width: 420px;
+}
+
+.date {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.hello {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 700px;
+}
+
+.time-of-day {
+  flex: 1 1 0%;
+  padding: 10px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 40px;
+  text-align: right;
+  letter-spacing: 2px;
+}
+
+.name-block {
+  flex: 1 1 0%;
+  padding: 10px;
+  max-width: 50%;
+}
+
+.name {
+  font-size: 40px;
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: 0px;
+  outline: 0px;
+}
+
+.quotes {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.quotes__button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+}
+.quotes__button img {
+  width: 32px;
+  height: 32px;
+}
+
+.quote {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  min-height: 32px;
+}
+
+.author {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  min-height: 30px;
+}
+
+.player-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  row-gap: 5px;
+  width: 200px;
+  min-height: 180px;
+  font-family: "Fira Sans", sans-serif;
+}
+.weather-icon {
+  font-size: 44px !important;
+}
+.weather__input {
+  font-size: 40px;
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid #fff !important;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.temperature {
+  padding-bottom: 5px;
+}
+
+.weather-description {
+  padding-bottom: 5px;
+}
+
+.wind-speed {
+  padding-bottom: 5px;
+}
+
+.humidity {
+  padding-bottom: 5px;
+}
+
+.slider__arrow {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 5;
+}
+.slider__arrow-left {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  z-index: 5;
+}
+.slider__arrow-left img {
+  position: relative;
+  transform: rotate(180deg);
+}
+.slider__arrow-right {
+  cursor: pointer !important;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  z-index: 5;
+}
+
+.player {
+  margin: 20px;
+}
+.player-buttom {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

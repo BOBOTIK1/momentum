@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="./img/favicon.ico" class="favicon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="stylesheet" href="./sass/owfont-regular.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="slider__arrow">
+            <button class="slider__arrow-left"><img src="./img/slider-next.svg" alt="left"></button>
+            <button class="slider__arrow-right"><img src="./img/slider-next.svg" alt="right"></button>
+        </div>
+        <div class="date-block">
+            <div class="time"></div>
+            <div class="date"></div>
+            <div class="hello">
+                <div class="time-of-day"></div>
+                <div class="name-block">
+                    <input class="name" type="text" placeholder="[имя]" value="">
+                </div>
+            </div>
+        </div>
+        <div class="quotes">
+            <button class="quotes__button"><img src="./img/reload.svg" alt="refresh"></button>
+            <div class="quotes__block">
+                <p class="quote">Работает? Не трогай</p>
+                <p class="author">Любой программист</p>
+            </div>
+        </div>
+        <div class="player-weather">
+            <div class="player">
+                <div class="player-buttom">
+                    <div class="buttom-prew"><img src="./img/play-prev.svg" alt="next"></div>
+                    <div class="buttom-pause"><img src="./img/pause.svg" alt="pause"></div>
+                    <div class="buttom-next"><img src="./img/play-next.svg" alt="prew"></div>
+                </div>
+                <ul class="music">
+                    <li class="music-one">Creepy Nuts-Yofukashino Uta</li>
+                    <li class="music-two">Miyavi-Other_side</li>
+                    <li class="music-three">Sawano Hiroyuki-Aliez</li>
+                    <li class="music-four">Syudou-Gamble</li>
+                </ul>
+            </div>
+            <div class="weather">
+                <input class="weather__input" type="text" value="Минск">
+                <i class="weather-icon owf"></i>
+                <div class="description__cotainer">
+                    <div class="temperature"></div>
+                    <div class="weather-description"></div>
+                    <div class="wind-speed"></div>
+                    <div class="humidity"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/date.js"></script>
+    <script src="./js/quote.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>

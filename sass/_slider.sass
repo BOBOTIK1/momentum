@@ -1,0 +1,26 @@
+.slider__arrow
+    position: absolute
+    display: flex
+    justify-content: space-between
+    top: 50%
+    left: 50%
+    transform: translate( -50%, -50%)
+    width: 100%
+    z-index: 5
+    &-left
+        cursor: pointer
+        background-color: transparent
+        border: none
+        outline: none
+        padding: 0
+        z-index: 5
+        img
+            position: relative
+            transform: rotate(180deg)
+    &-right
+        cursor: pointer !important
+        background-color: transparent
+        border: none
+        outline: none
+        padding: 0
+        z-index: 5
