@@ -8,8 +8,8 @@ function getImageByTime() {
     const img = new Image() /// пирсваиваем новую картинку
     const date = new Date() /// присваиваем дату с носителя
     const hour = date.getHours() /// заходим в дату и вытаскиваем от туда время
-    if( randomImage == 0){
-        randomImage = 1
+    if( randomImage === "0"){
+        randomImage = "01"
     }
     if (randomImage < 10) {
         randomImage = "0" + randomImage
@@ -42,7 +42,7 @@ getImageByTime()
 function getSlideNext() {
     randomImage = +randomImage + 1 /// к рандомному номеру картники добовляем +1
     if (randomImage >= 20){ /// если номер равен 20 (в данном случае последняя картинка в слайдере) 
-        randomImage = 1 /// выводим первую
+        randomImage = 01 /// выводим первую
     }
 }
 
